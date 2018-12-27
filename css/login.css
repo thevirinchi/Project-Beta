@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.message, .form {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+  	width: 700px;
+  	height: 400px;
+  	position: relative;
+  	display: grid;
+  	grid-template: 100% / 50% 50%;
+  	box-shadow: 2px 2px 10px 0 rgba(51, 51, 51, 0.2);
+}
+
+.message {
+  	position: absolute;
+  	background: white;
+  	width: 50%;
+  	height: 100%;
+  	transition: 0.5s all ease;
+  	transform: translateX(100%);
+  	z-index: 4;
+}
+.message:before {
+  	position: absolute;
+  	content: '';
+  	width: 1px;
+  	height: 70%;
+  	background: #C3C3D8;
+  	opacity: 0;
+  	left: 0;
+  	top: 15%;
+}
+
+.message .button {
+  	margin: 5px 0;
+}
+
+.signup:before {
+  	opacity: 0.3;
+  	left: 0;
+}
+
+.login:before {
+  	opacity: 0.3;
+  	left: 100%;
+}
+
+.btn-wrapper {
+  	width: 60%;
+}
+
+.form {
+  	width: 100%;
+  	height: 100%;
+}
+.form--heading {
+  	font-size: 20px;
+  	height: 50px;
+  	font-weight:700;
+}
+
+form {
+  	width: 70%;
+}
+form > * {
+  	margin: 10px;
+}
+form input {
+  	width: 90%;
+  	border: 0;
+  	border-bottom: 1px solid rgba(195, 195, 216, 0.5);
+  	font-size: 13px;
+  	font-weight: 300;
+  	color: #fff;
+  	background: #202125;
+  	letter-spacing: 1px;
+  	font-family: 'Poppins', sans-serif;
+}
+form input::placeholder {
+	background: #202125;
+  	color: #fff;
+  	font-size: 10px;
+  	font-family: 'Poppins', sans-serif;
+}
+form input:focus {
+	background: #202125;
+  	outline: 0;
+  	border-bottom: 1px solid rgba(236, 64, 122, 0.7);
+  	transition: 0.6s all ease;
+  	font-family: 'Poppins', sans-serif;
+}
+
+.button {
+	color: #ec407a;
+	font-weight:700;
+  	width: 100%;
+  	height: 30px;
+  	border-style: none;
+  	outline: 0;
+  	background: #3e3e3e;
+  	font-size: 15px;
+  	position: relative;
+  	z-index: 3;
+  	letter-spacing: 1.4px;
+  	cursor:pointer;
+}
+.button:hover {
+  	color: #b5004c;
+}
+
+@media (max-width: 750px) {
+  	.container {
+    	transform: scale(0.8);
+  	}
+}
+
+.dark{background-color:#1c2020; color:#f6f6f6}
+.light{background-color:#f6f6f6; color:#1c2020}
+
+.app-title {
+  	display: flex;
+  	flex-direction: column;
+  	position: relative;
+  	color: #ec407a;
+  	font-size: 26px;
+}
+
+.app-title:after {
+  	content: '';
+  	display: block;
+  	position: absolute;
+  	left: 0;
+  	bottom: -10px;
+  	width: 25px;
+  	height: 4px;
+  	background: #ec407a;
+}
