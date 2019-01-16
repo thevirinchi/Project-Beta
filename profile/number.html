@@ -7,7 +7,6 @@
 		<META name="author" content="Z3T4Z00K">
 		<LINK rel="stylesheet" href="../css/index.css">
 		<LINK rel="stylesheet" href="../css/profile.css">
-		<LINK rel="stylesheet" href="../css/profileForm.css">
 		<!-- Cool Anims -->
 		<LINK rel="stylesheet" href="../css/animate.min.css">
 		<!-- Link Anims -->
@@ -56,19 +55,18 @@
 
 			<!-- Landing Container -->
 			<DIV class="zk-container" style="margin-top:80px; margin-bottom:80px; padding-left:120px; padding-right:120px;padding-top:32px;">
-				<H2>Change Account Phone Number</H2>
-				<BR>
-				<H4>This phone number maybe used to sign in to this account and to send messages to the owner of this account.</H4>
+				<H1>Change Account Phone Number</H1>
+				<H4>Your phone number will be used if you forget your password or to send important messages.</H4>
 				<FORM style="margin-left:32px;margin-top:32px;">
 					<P>
-						<SPAN>Phone Number</SPAN>
+						<SPAN class="profile-form-field-head">Phone Number</SPAN>
 						<BR>
-						<INPUT class="profile-form-control profile-form-control-light" type="number" placeholder=" +91 9876543210" style="width:20%;"></INPUT>
+						<INPUT id="formField1" class="profile-form-field profile-form-field-light" placeholder="9876543210" type="text" maxlength="10"></INPUT>
 					</P>
 					<P>
-						<SPAN>Confirm Phone Number</SPAN>
+						<SPAN class="profile-form-field-head">Phone Number</SPAN>
 						<BR>
-						<INPUT type="number" placeholder=" +91 9876543210" style="width:20%"></INPUT>
+						<INPUT id="formField" class="profile-form-field profile-form-field-light" placeholder="9876543210" type="text" maxlength="10"></INPUT>
 					</P>
 					<INPUT type="submit" value="Change Number" style="margin-top:32px;"></INPUT>
 				</FORM>
