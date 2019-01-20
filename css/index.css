@@ -230,3 +230,41 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .zk-border-dark-grey,.zk-hover-border-dark-grey:hover,.zk-border-dark-gray,.zk-hover-border-dark-gray:hover{border-color:#616161!important}
 .zk-border-pale-red,.zk-hover-border-pale-red:hover{border-color:#ffe7e7!important}.zk-border-pale-green,.zk-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .zk-border-pale-yellow,.zk-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.zk-border-pale-blue,.zk-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+/* Cursors */
+.zk-alias {cursor: alias;}
+.zk-all-scroll {cursor: all-scroll;}
+.zk-auto {cursor: auto;}
+.zk-cell {cursor: cell;}
+.zk-context-menu {cursor: context-menu;}
+.zk-col-resize {cursor: col-resize;}
+.zk-copy {cursor: copy;}
+.zk-crosshair {cursor: crosshair;}
+.zk-default {cursor: default;}
+.zk-e-resize {cursor: e-resize;}
+.zk-ew-resize {cursor: ew-resize;}
+.zk-grab {cursor: grab;}
+.zk-grabbing {cursor: grabbing;}
+.zk-help {cursor: help;}
+.zk-move {cursor: move;}
+.zk-n-resize {cursor: n-resize;}
+.zk-ne-resize {cursor: ne-resize;}
+.zk-nesw-resize {cursor: nesw-resize;}
+.zk-ns-resize {cursor: ns-resize;}
+.zk-nw-resize {cursor: nw-resize;}
+.zk-nwse-resize {cursor: nwse-resize;}
+.zk-no-drop {cursor: no-drop;}
+.zk-none {cursor: none;}
+.zk-not-allowed {cursor: not-allowed;}
+.zk-pointer {cursor: pointer;}
+.zk-progress {cursor: progress;}
+.zk-row-resize {cursor: row-resize;}
+.zk-s-resize {cursor: s-resize;}
+.zk-se-resize {cursor: se-resize;}
+.zk-sw-resize {cursor: sw-resize;}
+.zk-text {cursor: text;}
+.zk-url {cursor: url(myBall.cur),auto;}
+.zk-w-resize {cursor: w-resize;}
+.zk-wait {cursor: wait;}
+.zk-zoom-in {cursor: zoom-in;}
+.zk-zoom-out {cursor: zoom-out;}
+.zk-noselect {-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
